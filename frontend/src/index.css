@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.medisync-blob {
+  background: radial-gradient(
+      ellipse 80% 60% at 20% 0%,
+      rgba(0, 188, 212, 0.35),
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 70% 50% at 100% 100%,
+      rgba(13, 71, 161, 0.2),
+      transparent 65%
+    );
+}
+
+.haven-bg {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #faf5ff 100%);
+}
